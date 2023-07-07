@@ -1,0 +1,11 @@
+E:\Projects\Software\Hi-Tech_InfoKiosk\Hi-Tech Hub\v1-Beta_C#-Edition\Hi-Tech Hub\bin\Debug\Hi-Tech Hub.exe.config
+E:\Projects\Software\Hi-Tech_InfoKiosk\Hi-Tech Hub\v1-Beta_C#-Edition\Hi-Tech Hub\bin\Debug\Hi-Tech Hub.exe
+E:\Projects\Software\Hi-Tech_InfoKiosk\Hi-Tech Hub\v1-Beta_C#-Edition\Hi-Tech Hub\bin\Debug\Hi-Tech Hub.pdb
+E:\Projects\Software\Hi-Tech_InfoKiosk\Hi-Tech Hub\v1-Beta_C#-Edition\Hi-Tech Hub\obj\Debug\Hi-Tech Hub.csproj.AssemblyReference.cache
+E:\Projects\Software\Hi-Tech_InfoKiosk\Hi-Tech Hub\v1-Beta_C#-Edition\Hi-Tech Hub\obj\Debug\Hi-Tech Hub.csproj.SuggestedBindingRedirects.cache
+E:\Projects\Software\Hi-Tech_InfoKiosk\Hi-Tech Hub\v1-Beta_C#-Edition\Hi-Tech Hub\obj\Debug\Hi_Tech_Hub.Properties.Resources.resources
+E:\Projects\Software\Hi-Tech_InfoKiosk\Hi-Tech Hub\v1-Beta_C#-Edition\Hi-Tech Hub\obj\Debug\Hi-Tech Hub.csproj.GenerateResource.cache
+E:\Projects\Software\Hi-Tech_InfoKiosk\Hi-Tech Hub\v1-Beta_C#-Edition\Hi-Tech Hub\obj\Debug\Hi-Tech Hub.csproj.CoreCompileInputs.cache
+E:\Projects\Software\Hi-Tech_InfoKiosk\Hi-Tech Hub\v1-Beta_C#-Edition\Hi-Tech Hub\obj\Debug\Hi-Tech Hub.exe
+E:\Projects\Software\Hi-Tech_InfoKiosk\Hi-Tech Hub\v1-Beta_C#-Edition\Hi-Tech Hub\obj\Debug\Hi-Tech Hub.pdb
+E:\Projects\Software\Hi-Tech_InfoKiosk\Hi-Tech Hub\v1-Beta_C#-Edition\Hi-Tech Hub\obj\Debug\LauncherApp.Form1.resources
