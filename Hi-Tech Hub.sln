@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hi-Tech Hub", "Hi-Tech Hub\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HiTechLaunch", "HiTechLaunch\HiTechLaunch.csproj", "{ADDAAB57-F28C-4096-AB63-EA16A90FAC39}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HiTechBrowser", "HiTechBrowser\HiTechBrowser.csproj", "{1124D112-1B6A-48A8-BE6D-E8D55AD5EFE2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{ADDAAB57-F28C-4096-AB63-EA16A90FAC39}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ADDAAB57-F28C-4096-AB63-EA16A90FAC39}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ADDAAB57-F28C-4096-AB63-EA16A90FAC39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1124D112-1B6A-48A8-BE6D-E8D55AD5EFE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1124D112-1B6A-48A8-BE6D-E8D55AD5EFE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1124D112-1B6A-48A8-BE6D-E8D55AD5EFE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1124D112-1B6A-48A8-BE6D-E8D55AD5EFE2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

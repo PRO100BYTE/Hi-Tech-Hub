@@ -111,27 +111,27 @@ namespace LauncherApp
 
         private void button1_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start(@"C:\Hub\Chrome\chrome.exe", "--app=https://tehnolab.pro100byte.ru"); // Открыть ссылку при клике
+            System.Diagnostics.Process.Start(@"HiTechBrowser.exe", "--link=https://projects.thedayg0ne.ru/tehnolab"); // Открыть ссылку при клике
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start(@"C:\Hub\Chrome\chrome.exe", "--app=https://hitech.pro100byte.ru"); // Открыть ссылку при клике
+            System.Diagnostics.Process.Start(@"HiTechBrowser.exe", "--link=https://hitech.pro100byte.ru"); // Открыть ссылку при клике
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start(@"C:\Hub\Chrome\chrome.exe", "--app=https://portfolio.pro100byte.ru"); // Открыть ссылку при клике
+            System.Diagnostics.Process.Start(@"HiTechBrowser.exe", "--link=https://portfolio.pro100byte.ru"); // Открыть ссылку при клике
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start(@"C:\Hub\Chrome\chrome.exe", "--app=https://pro100byte.ru"); // Открыть ссылку при клике
+            System.Diagnostics.Process.Start(@"HiTechBrowser.exe", "--link=https://pro100byte.ru"); // Открыть ссылку при клике
         }
 
         private void label3_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start(@"C:\Hub\Chrome\chrome.exe", "--app=https://thedayg0ne.ru"); // Открыть ссылку при клике
+            System.Diagnostics.Process.Start(@"HiTechBrowser.exe", "--link=https://thedayg0ne.ru"); // Открыть ссылку при клике
         }
     }
 }
