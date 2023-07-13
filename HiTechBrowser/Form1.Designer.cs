@@ -37,65 +37,69 @@
             // 
             // backButton
             // 
+            this.backButton.BackColor = System.Drawing.Color.Black;
             this.backButton.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.backButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.backButton.ForeColor = System.Drawing.SystemColors.Control;
-            this.backButton.Location = new System.Drawing.Point(24, 723);
+            this.backButton.Location = new System.Drawing.Point(14, 723);
             this.backButton.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.backButton.Name = "backButton";
-            this.backButton.Size = new System.Drawing.Size(113, 32);
+            this.backButton.Size = new System.Drawing.Size(32, 32);
             this.backButton.TabIndex = 0;
-            this.backButton.Text = "❮ Назад";
-            this.backButton.UseVisualStyleBackColor = true;
+            this.backButton.Text = "❮";
+            this.backButton.UseVisualStyleBackColor = false;
             this.backButton.Click += new System.EventHandler(this.backButton_Click);
             // 
             // forwardButton
             // 
+            this.forwardButton.BackColor = System.Drawing.Color.Black;
             this.forwardButton.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.forwardButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.forwardButton.ForeColor = System.Drawing.SystemColors.Control;
-            this.forwardButton.Location = new System.Drawing.Point(147, 723);
+            this.forwardButton.Location = new System.Drawing.Point(56, 723);
             this.forwardButton.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.forwardButton.Name = "forwardButton";
-            this.forwardButton.Size = new System.Drawing.Size(113, 32);
+            this.forwardButton.Size = new System.Drawing.Size(32, 32);
             this.forwardButton.TabIndex = 1;
-            this.forwardButton.Text = "Вперед ❯";
-            this.forwardButton.UseVisualStyleBackColor = true;
+            this.forwardButton.Text = "❯";
+            this.forwardButton.UseVisualStyleBackColor = false;
             this.forwardButton.Click += new System.EventHandler(this.forwardButton_Click);
             // 
             // refreshButton
             // 
+            this.refreshButton.BackColor = System.Drawing.Color.Black;
             this.refreshButton.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.refreshButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.refreshButton.ForeColor = System.Drawing.SystemColors.Control;
-            this.refreshButton.Location = new System.Drawing.Point(270, 723);
+            this.refreshButton.ForeColor = System.Drawing.Color.White;
+            this.refreshButton.Location = new System.Drawing.Point(98, 723);
             this.refreshButton.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.refreshButton.Name = "refreshButton";
-            this.refreshButton.Size = new System.Drawing.Size(113, 32);
+            this.refreshButton.Size = new System.Drawing.Size(32, 32);
             this.refreshButton.TabIndex = 2;
-            this.refreshButton.Text = "Обновить ⭮";
-            this.refreshButton.UseVisualStyleBackColor = true;
+            this.refreshButton.Text = "⭮";
+            this.refreshButton.UseVisualStyleBackColor = false;
             this.refreshButton.Click += new System.EventHandler(this.refreshButton_Click);
             // 
             // closeButton
             // 
+            this.closeButton.BackColor = System.Drawing.Color.Black;
             this.closeButton.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.closeButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.closeButton.ForeColor = System.Drawing.SystemColors.Control;
-            this.closeButton.Location = new System.Drawing.Point(887, 723);
+            this.closeButton.Location = new System.Drawing.Point(978, 723);
             this.closeButton.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.closeButton.Name = "closeButton";
-            this.closeButton.Size = new System.Drawing.Size(113, 32);
+            this.closeButton.Size = new System.Drawing.Size(32, 32);
             this.closeButton.TabIndex = 3;
-            this.closeButton.Text = "Выход ✖";
-            this.closeButton.UseVisualStyleBackColor = true;
+            this.closeButton.Text = "✖";
+            this.closeButton.UseVisualStyleBackColor = false;
             this.closeButton.Click += new System.EventHandler(this.closeButton_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(1024, 768);
             this.ControlBox = false;
             this.Controls.Add(this.closeButton);

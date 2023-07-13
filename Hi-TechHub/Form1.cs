@@ -30,7 +30,7 @@ namespace LauncherApp
 
             var title = new Label(); // Заголовок
             title.Text = "Hi-Tech Hub v1 Beta";
-            title.Font = new Font("OutRun", 36, FontStyle.Regular);
+            title.Font = new Font("Montserrat", 36, FontStyle.Regular);
             title.ForeColor = Color.White;
             title.AutoSize = true;
             title.Location = new Point((this.Width - title.Width) / 2, logo.Bottom + 15);
@@ -54,7 +54,7 @@ namespace LauncherApp
 
             var menu1 = new Button(); // Первый пункт меню
             menu1.Text = "О нас";
-            menu1.Font = new Font("OutRun", 48, FontStyle.Regular);
+            menu1.Font = new Font("Montserrat", 48, FontStyle.Regular);
             menu1.ForeColor = Color.White;
             menu1.BackColor = Color.Transparent;
             menu1.FlatStyle = FlatStyle.Flat;
@@ -64,12 +64,12 @@ namespace LauncherApp
             menu1.Width = 400;
             menu1.Height = 80;
             menu1.Location = new Point((this.Width - menu1.Width) / 2, triangle.Top + triangle.Height / 4);
-            menu1.Click += (s, e1) => System.Diagnostics.Process.Start("https://hitech.pro100byte.ru"); // Открыть ссылку при клике
+            menu1.Click += (s, e1) => System.Diagnostics.Process.Start(@"HiTechBrowser.exe", "--link=https://hitech.pro100byte.ru"); // Открыть ссылку при клике
             this.Controls.Add(menu1);
 
             var menu2 = new Button(); // Второй пункт меню
             menu2.Text = "Портфолио";
-            menu2.Font = new Font("OutRun", 48, FontStyle.Regular);
+            menu2.Font = new Font("Montserrat", 48, FontStyle.Regular);
             menu2.ForeColor = Color.White;
             menu2.BackColor = Color.Transparent;
             menu2.FlatStyle = FlatStyle.Flat;
@@ -79,12 +79,12 @@ namespace LauncherApp
             menu2.Width = 400;
             menu2.Height = 80;
             menu2.Location = new Point((this.Width - menu2.Width) / 2, menu1.Bottom + 20);
-            menu2.Click += (s, e2) => System.Diagnostics.Process.Start("https://portfolio.pro100byte.ru"); // Открыть ссылку при клике
+            menu2.Click += (s, e2) => System.Diagnostics.Process.Start(@"HiTechBrowser.exe", "--link=https://portfolio.pro100byte.ru"); // Открыть ссылку при клике
             this.Controls.Add(menu2);
 
             var menu3 = new Button(); // Третий пункт меню
             menu3.Text = "Проекты TehnoLab";
-            menu3.Font = new Font("OutRun", 36, FontStyle.Regular);
+            menu3.Font = new Font("Montserrat", 36, FontStyle.Regular);
             menu3.ForeColor = Color.White;
             menu3.BackColor = Color.Transparent;
             menu3.FlatStyle = FlatStyle.Flat;
@@ -94,7 +94,7 @@ namespace LauncherApp
             menu3.Width = 400;
             menu3.Height = 80;
             menu3.Location = new Point((this.Width - menu3.Width) / 2, menu2.Bottom + 20);
-            menu3.Click += (s, e3) => System.Diagnostics.Process.Start("https://tehnolab.pro100byte.ru"); // Открыть ссылку при клике
+            menu3.Click += (s, e3) => System.Diagnostics.Process.Start(@"HiTechBrowser.exe", "--link=https://tehnolab.pro100byte.ru"); // Открыть ссылку при клике
             this.Controls.Add(menu3);
         }
 
@@ -111,7 +111,7 @@ namespace LauncherApp
 
         private void button1_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start(@"HiTechBrowser.exe", "--link=https://projects.thedayg0ne.ru/tehnolab"); // Открыть ссылку при клике
+            System.Diagnostics.Process.Start(@"HiTechBrowser.exe", "--link=https://tehnolab.pro100byte.ru"); // Открыть ссылку при клике
         }
 
         private void button2_Click(object sender, EventArgs e)
