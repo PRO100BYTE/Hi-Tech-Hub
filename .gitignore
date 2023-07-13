@@ -1,4 +1,6 @@
 
+bin/
+obj/
 packages/
 Hi-Tech Hub/bin/
 HiTechBrowser/bin/
