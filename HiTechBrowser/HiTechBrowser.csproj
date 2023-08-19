@@ -43,6 +43,9 @@
   <PropertyGroup>
     <ApplicationIcon>logo.ico</ApplicationIcon>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>HiTechBrowser.Program</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="CefSharp, Version=114.2.120.0, Culture=neutral, PublicKeyToken=40c4b6fc221f4138, processorArchitecture=MSIL">
       <HintPath>..\packages\CefSharp.Common.114.2.120\lib\net452\CefSharp.dll</HintPath>
