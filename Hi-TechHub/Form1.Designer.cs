@@ -117,12 +117,12 @@
             this.label3.BackColor = System.Drawing.Color.Black;
             this.label3.Font = new System.Drawing.Font("Montserrat SemiBold", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label3.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.label3.Location = new System.Drawing.Point(323, 270);
+            this.label3.Location = new System.Drawing.Point(338, 272);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(382, 18);
+            this.label3.Size = new System.Drawing.Size(357, 18);
             this.label3.TabIndex = 7;
-            this.label3.Text = "Hi-Tech Hub v1.1 by Evgeniy Struchkov [#TheDayG0ne]";
+            this.label3.Text = "Hi-Tech Hub by Evgeniy Struchkov [#TheDayG0ne]";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
@@ -131,7 +131,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Montserrat SemiBold", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.label1.Location = new System.Drawing.Point(3, 738);
+            this.label1.Location = new System.Drawing.Point(3, 745);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(1020, 16);
             this.label1.TabIndex = 8;
